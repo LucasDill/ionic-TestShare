@@ -124,7 +124,7 @@ TelestrokePlan: boolean=false;//This determines if the special 4A case is needed
 
 TimerTextColour:any;
 
-  constructor(platform: Platform, /*public DataBase: AngularFireDatabase*/) {//the constructor finds the height and width of the current platform which may be used later on to get a better idea of how large to make each of the pages 
+  constructor(platform: Platform, public DataBase: AngularFireDatabase) {//the constructor finds the height and width of the current platform which may be used later on to get a better idea of how large to make each of the pages 
     platform.ready().then((readySource) => {
       console.log('Width: ' + platform.width());
       console.log('Height: ' + platform.height());

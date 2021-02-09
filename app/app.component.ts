@@ -11,7 +11,8 @@ import { WelcomePage } from "../pages/welcome/welcome";
 import { ContactPage } from "../pages/contact/contact";
 
 @Component({
-  templateUrl: "app.html"
+  templateUrl: "app.html",
+  styleUrls: ["./app.scss"]
 })
 export class MyApp {
   @ViewChild(Nav) navCtrl: Nav;

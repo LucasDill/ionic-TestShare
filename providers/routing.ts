@@ -16,7 +16,7 @@ LandingSites:any;
 
 loc:any;
 
-  constructor(public http: HttpClient,public Data: DataServiceProvider,/*public DataBase: AngularFireDatabase,*/
+  constructor(public http: HttpClient,public Data: DataServiceProvider,public DataBase: AngularFireDatabase,
     private weatherService: WeatherService) {
       this.Database = firebase.firestore();
   }

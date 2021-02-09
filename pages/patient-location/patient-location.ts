@@ -34,7 +34,7 @@ export class PatientLocationPage {
     private mapsAPILoader: MapsAPILoader,
     public formBuilder: FormBuilder,
     public Data: DataServiceProvider,
-    /*public DataBase: AngularFireDatabase,*/
+    public DataBase: AngularFireDatabase,
     private weatherService: WeatherService,
     public Routes: RoutingProvider,
     public alertController: AlertController,
