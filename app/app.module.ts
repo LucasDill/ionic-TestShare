@@ -16,7 +16,6 @@ import { Geolocation } from "@ionic-native/geolocation/ngx";
 import { AngularFireModule } from "angularfire2";
 import { AngularFireDatabaseModule } from "angularfire2/database";
 import { AngularFireAuthModule } from "angularfire2/auth";
-import { AngularFirestoreModule } from "angularfire2/firestore";
 import { AgmCoreModule } from "@agm/core";
 import { HelpPage } from "../pages/help/help";
 import { ImagingPage } from "../pages/imaging/imaging";
@@ -91,6 +90,7 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
       measurementId: "G-ML39B2PXC4"
     }),
     AngularFireDatabaseModule,
+    AngularFireAuthModule,
     HttpClientModule
   ],
   bootstrap: [IonicApp],
@@ -118,6 +118,7 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
     StatusBar,
     SplashScreen,
     Geolocation,
+    AngularFirestore,
     HttpClientModule,
     WeatherService,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
