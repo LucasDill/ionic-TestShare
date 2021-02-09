@@ -59,7 +59,7 @@ export class MapPage {
     counter: any=0;
     height:any;
   constructor(public zone: NgZone, public geolocation: Geolocation, public navCtrl: NavController,
-    public DataBase: AngularFireDatabase,
+    //public DataBase: AngularFireDatabase,
     public Data: DataServiceProvider,
     private menu: MenuController,
     private Mapping: MappingProvider) {
