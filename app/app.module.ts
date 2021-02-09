@@ -68,9 +68,7 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
     ContactPage,
     HtmlPipe,
     ExpandComponent,
-    TPaNoPage,
-    AngularFirestore,
-    AngularFirestoreModule
+    TPaNoPage
   ],
   imports: [
     FormsModule,
@@ -93,7 +91,6 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
       measurementId: "G-ML39B2PXC4"
     }),
     AngularFireDatabaseModule,
-    AngularFireAuthModule,
     HttpClientModule
   ],
   bootstrap: [IonicApp],
