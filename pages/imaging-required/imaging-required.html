@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar text-center>
+    <ion-title>
+      Imaging Required
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only menuToggle right>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <components-timer></components-timer>
+</ion-header>
+
+<ion-content padding id="imaging-required">
+   <!-- <div style="height: 9vh;"></div>-->
+  <h3 id="imagingRequired-heading3" text-center style="color:#006bb6;font-weight:400;font-size: xx-large;">
+    Does the patient require imaging?
+  </h3>
+  <div class="spacer" style="height:100px;" id="imagingRequired-spacer4"></div>
+  <!--this is a simple decision page with some options that are used to navigate the app although the spacer function will probably need to be changed once that is figured out-->
+  <button id="imagingRequired-button3" ion-button round large block on-click="goToImagingRoutes()">
+    Yes 
+  </button>
+  <button id="imagingRequired-button4" ion-button round large block on-click="goToTpaQuestion()">
+    No
+  </button>
+</ion-content>

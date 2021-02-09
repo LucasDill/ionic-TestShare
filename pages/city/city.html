@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar text-center>
+    <ion-title >Next Steps</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only menuToggle right>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <components-timer></components-timer><!--The component timer which is present on each page apart from the last known well -->
+</ion-header>
+
+<ion-content padding style="color: #006bb6;">
+  <div id="Destination" text-center>
+    <h1>
+      <b>
+    {{Location}}
+  </b>
+  </h1>
+  </div>
+  
+<div style="height: 60vh; font-size: large;">
+  <br><h4 text-center>Respond immediately</h4><br><br><p text-center>
+    <a href="tel:911" center ion-button round  small class="callButton"><button ion-button small>Call</button></a><br>9-1-1 
+  <br><br>OR<br><br> your local emergency number</p>
+</div>
+ <button ion-button block on-click="GoToMap()" round large>Explore My Area</button>
+<button ion-button block on-click="GoToBestPractice()" round large>Patient Care - Best Practice</button>
+</ion-content>

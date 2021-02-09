@@ -1,0 +1,30 @@
+page-contact {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        height: 80vh;
+        width: auto;
+        //border: 2px solid black;
+        text-align: center;
+        //object-fit: scale-down !important;
+    }
+    .center-fit {
+      //  max-width: 100%;
+        max-height: calc(80vh/4) !important;
+       // margin: auto;
+       // object-fit: contain !important;
+       height: calc(80vh/5.25);
+       width: auto;
+      
+
+    }
+
+    .img-response{
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+}
