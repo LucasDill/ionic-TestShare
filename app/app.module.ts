@@ -67,7 +67,8 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
     ContactPage,
     HtmlPipe,
     ExpandComponent,
-    TPaNoPage
+    TPaNoPage,
+    AngularFirestore
   ],
   imports: [
     FormsModule,
@@ -118,7 +119,6 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
     StatusBar,
     SplashScreen,
     Geolocation,
-    AngularFirestore,
     HttpClientModule,
     WeatherService,
     { provide: ErrorHandler, useClass: IonicErrorHandler },

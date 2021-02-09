@@ -19,12 +19,12 @@ export class MyApp {
   rootPage: any;
 
   constructor(
-    private platform: Platform,
+   /* private platform: Platform,
     private statusBar: StatusBar,
     private splashScreen: SplashScreen,
     private config: Config,
     private Data: DataServiceProvider,
-    private inAppBrowser: InAppBrowser
+    private inAppBrowser: InAppBrowser*/
   ) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
