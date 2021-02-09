@@ -78,7 +78,6 @@ import { TPaNoPage } from "../pages/t-pa-no/t-pa-no";
       apiKey: "AIzaSyC2GRIwOatzPmiamkpv3znVK8hi9g4lGoU", // this is the api key that deals with all of the google info, once this is passed off you may need to change it because the hospital might want there own
       libraries: ["geometry", "places"]
     }),
-
     AngularFireModule.initializeApp({
       // this is the standard firebase connection stuff if you have dealt with it before it should be familiar. we have a shared email this is under
       apiKey: "AIzaSyB6NmY0iFundTq06rk3mpc5Wk7LwbWdUw0",
